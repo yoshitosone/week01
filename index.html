@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>自己紹介ページ</title>
+</head>
+<body class="bg-gray-100">
+<!-- 
+    このファイルに、README.mdの指示に従ってHTMLタグを追加してください
+    
+    練習問題1: 見出しタグの作成
+    - h1タグを使って、ページのメインタイトルを作成してください
+    例: <h1>田中花子の自己紹介</h1>
+    - h2タグを使って、以下の5つのセクションタイトルを作成してください：
+    「基本情報」「趣味」「好きなサイト」「プロフィール画像」「連絡先」
+    例: <h2>基本情報</h2>
+    
+    ※重要：以下の練習問題2〜5は、対応するh2セクションの下に記述してください
+    例えば練習問題2は「基本情報」セクションの下に、練習問題3は「趣味」セクションの下に書きます。
+    --> 
+    <header>
+    <div class="font-bold">
+    <h1 class="text-3xl text-center">ようれんの自己紹介</h1>
+    </div>
+    </header>
+    
+    <div class="w-full mx-auto p-6">
+    <section class="mb-8">
+        <h2>基本情報</h2>
+        <p>こんにちは!Web開発を学習中のようれんです。</p>
+    </section>
+
+    <section class="mb-8">
+        <h2>趣味</h2>
+        <ul class="list-disc list-inside">
+            <li>サウナ</li> 
+            <li>自転車</li>
+            <li>音楽を聴くこと</li>
+        </ul>
+    </section>
+    <section class="mb-8">
+        <h2>好きなサイト</h2>
+        <p>よく利用するサイトは<a href="https://www.youtube.com" class="text-blue-500 underline">YouTube</a>と<a href="https://www.Instagram.com" class="text-blue-500 underline">Instagram</a>です。</p>
+    </section>
+
+    <section class="mb-8">
+        <h2>プロフィール画像</h2>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvbaX2qktQU_oO_959KrQsMTdh3MGjvFOXErkcD4AIeY3A-mgD6xKTkLqrr1SObz3Rn-qXECaQNBFPPKSUaAPXdVW3LQXZy194KmA3kBU3S0omBhPhxHlzuKi0-l7iRCVAB65yLES70g3a/s400/stand_naname3_man.png" alt="ようれんのプロフィール画像" width="200" height="200">
+    </section>
+
+    <section class="mb-8">
+        <h2>連絡先</h2>
+        <p>メール: <a href="mailto:yoshitosone1409@gmail.com" class="text-blue-500 underline">yoshitosone1409@gmail.com</a></p>
+    </section>
+</div>
+
+<!-- 
+    練習問題2: 段落タグで自己紹介文の作成
+    - 「基本情報」セクションに、pタグを使って自己紹介文を2つの段落で書いてください
+    例: <p>こんにちは！Web開発を学習中の田中花子です。</p>
+    - 「趣味」セクションに、pタグを使って趣味について2つの段落で書いてください
+    例: <p>趣味は読書と映画鑑賞です。</p>
+-->
+
+
+<!-- 
+    練習問題3: リンクタグの作成
+    - 「好きなサイト」セクションに、pタグとaタグを使って外部サイトへのリンクを2つ作成してください
+    - 書き方例: <p>よく利用するサイトは<a href="https://www.google.com">Google</a>です。</p>
+    - ヒント: href属性にURLを指定します（"から始まって"で終わる）
+    - おすすめサイト例: Google, YouTube, Twitter など
+-->
+
+
+<!-- 
+    練習問題4: 画像タグの作成
+    - 「プロフィール画像」セクションに、imgタグを使ってプロフィール画像を表示してください
+    - 書き方例: <img src="profile.jpg" alt="田中花子のプロフィール画像" width="200" height="200">
+    - 重要: imgタグは</img>のような終了タグは不要です
+    - altは画像が表示されない時に代わりに表示される説明文です（とても重要）
+    - srcには画像ファイル名を入れますが、ファイルがなくても代替テキストで学習できます
+-->
+
+
+<!-- 
+    練習問題5: 連絡先情報の作成
+    - 「連絡先」セクションに、pタグを使ってメールアドレスを表示してください
+    - 基本例: <p>メール: tanaka@example.com</p>
+    - 挑戦: メールアドレスをクリックできるリンクにしてみましょう
+    例: <p>メール: <a href="mailto:tanaka@example.com">tanaka@example.com</a></p>
+    - ヒント: mailto:を使うとメールアプリが開きます
+    -->
+
+</body>
+</html>
